@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>No. 7</title>
+  <style>
+    #box {
+      width: 300px;
+      height: 200px;
+      background-color: orange;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #box:fullscreen {
+      background-color: #28a745;
+      width: 100vw;
+      height: 100vh;
+      font-size: 2em;
+      border-radius: 0;
+    }
+  </style>
+</head>
+<body>
+    <h1>No. 7</h1>
+    <p>Click the button below to enter the element into fullscreen mode</p>
+  <div id="box">
+    This box will be changed when entered fullscreen.
+  </div>
+  <button onclick="document.getElementById('box').requestFullscreen()">Enter fullscreen</button>
+</body>
+</html>

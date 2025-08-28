@@ -1,0 +1,126 @@
+/*img {
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 50%;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+
+button {
+      background-color: purple;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+
+aside {
+    margin-bottom: 50px;
+    float: right;
+}
+
+footer {
+    padding-bottom: 15px;
+}*/
+
+
+
+
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  color: purple;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+/* Intro Section */
+.intro h1, .intro h2 {
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: purple;
+}
+
+.contact-btn {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  color: purple;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Profile Image */
+.profile-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
